@@ -1,0 +1,117 @@
+    7  git clone https://github.com/BYUCS235/Maze-Lab.git
+    8  https://github.com/BYUCS235/Maze-Lab.git
+    9  git clone https://github.com/BYUCS235/Maze-Lab.git
+   10  git clone https://github.com/BYUCS235/maze.git
+   12  git clone https://github.com/BYUCS235/maze.git
+   21  https://github.com/BYUCS235/Quicksort-Lab.git
+   23  git config --global user.name “First Last”
+   26  git config --list
+   29  git --version
+   30  $ brew install git
+   31  brew install git
+   32  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   33  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   34  git --version
+   35  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   36  git --version
+   37  git config --global use.name "Hunter Croxall"
+   38  git config --global user.email "h.j.croxall@gmail.com\n\n\n\n\n"
+   39  git config --global user.email "h.j.croxall@gmail.com"
+   40  git config --global user.email "h.j.croxall@gmail.com"
+   41  git config --global use.name "Hunter Croxall"
+   42  git config --global core.editor "code --wait"
+   43  git config --global init.defaultBranch main
+   62  cd git_practice
+   63  git init
+   65  git add [file_1.txt]
+   71  git add [file_1.txt]
+   72  git add [file_1.txt]
+   73  git add file_1.txt
+   74  git add file_2.txt
+   76  git status
+   77  git commit -m
+   78  git commit -m "create new files"
+   79  git status
+   80  git log
+   81  git status
+   82  git commit -a -m "only first file"
+   83  git log
+   84  git status
+   85  git add Readme.md
+   86  git add Read.me
+   87  git add Readme.md
+   88  git commit -m "with readme now"
+   89  git log
+   90  git status
+   91  touch .gitignore
+   92  git commit -a -m "Adding a gitignore to the file"
+   93  git add .gitignore
+   94  git commit -m "adding gitignore to the file"
+   96  git status
+   97  git status
+   98  git log
+   99  git open .gitignore
+  100  .gitignore "api-keys.txt"
+  101  touch .gitignore "api_keys.txt"
+  103  git add api-keys.txt
+  104  git add api_keys.txt
+  105  git commit -m "add api_keys to file"
+  106  git status
+  107  git status
+  108  git add .DS_Store
+  109  git commit -m "add DS_Store to the tile"
+  110  git status
+  111  git branch features
+  112  git switch features
+  113  git log
+  115  git add new_features.txt
+  116  git commit -m "add empty file"
+  117  git status
+  118  git commit -m "change to features"
+  119  git add new_features.txt
+  120  git commit -m "added to new features"
+  121  git switch main
+  122  git switch master
+  124  git add file_1.txt
+  125  git commit -m "more change to file 1"
+  126  git merge features
+  127  git commit -m "merging the features in"
+  128  git log
+  129  git add new_features.txt
+  130  git commit -m "more feature changes"
+  131  git switch features
+  132  git add new_features.txt
+  133  git commit -m "added some new features"
+  134  git switch master
+  135  git merge
+  136  git merge features
+  137  git commit -m "merge conflict resolve"
+  138  git add new_features.txt
+  139  git commit -m "merge conflict resolved"
+  140  git status
+  141  git log
+  142  git branch -d features
+  143  git remote add origin git@github.com:huntercroxall/git-practice-huntercroxall.git
+  144  git push-u origin master
+  146  git push -u origin master
+  147  git update
+  149  git@github.com:huntercroxall/git-practice-t-hanksthanksu.git
+  150  git clone git@github.com:huntercroxall/git-practice-t-hanksthanksu.git
+  151  git branch feature-huntercroxall
+  152  git push origin feature-huntercroxall
+  153  git branch features-huntercroxall
+  154  git touch hunter-file.txt
+  156  git status
+  157  git add hunter-file.txt
+  158  git commit -m "adding a new file for fun"
+  159  git status
+  160  git push origin feature-huntercroxall
+  161  git push origin features-huntercroxall
+  162  git log
+  163  git switch features-huntercroxall
+  165  git add .
+  166  git commit -m "New file for the repo\n"
+  167  git push origin features-huntercroxall
+  168  git pull
+  169  git log
+  170  git log --oneline > gitlog.txt
